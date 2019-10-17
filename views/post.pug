@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Books
+    link(rel='stylesheet', href='css/post.css')
+  body
+      .header
+        .header_brand
+            h1.header_brand Books
+        .header_users
+          .header_user
+            h1.header_user #{nickname}
+          a.header_logout-button(href='/auth/logout') Log Out
+      .body
+        label(for="title") 책이름
+        input.title(type="text", name="title", placeholder="Title")
+        label(for="title") 지은이
+        input.author(type="text", name="author", placeholder="지은이")
+        label(for="publisher") 출판사
+        input.publisher(type="text", placeholder="출판사", name="publisher")
+        label(for="publicationDate") 출판일
+        input.publicationDate(type="date", name="publicationDate")
+        textarea(name="description", cols="30", rows="10", placeholder="책 설명").description
+        button.register-button 등록
+        script(src="javascript/post.js")

@@ -1,0 +1,98 @@
+@import 'default.css';
+
+.login-box {
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15);
+}
+
+.login-box>h1 {
+    padding-top: 20px;
+    font-size: 3em;
+    font-weight: 350;
+    color: #282828;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px #ffffff;
+    margin-bottom: 40px;
+}
+
+.login-box>input {
+    font-size: 15px;
+    width: 450px;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15);
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 15px;
+    padding: 0 15px 0 15px;
+}
+
+.login-box>input:focus {
+    background-color: #f4f4f4;
+}
+
+.login-box>#login-button {
+    width: 450px;
+    height: 45px;
+    border: 0;
+    margin: 0 0 0 0;
+    background: #2296cf;
+    padding-top: 1px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-radius: 8px;
+}
+
+.login-box>#signup-button {
+    width: 450px;
+    height: 45px;
+    border: 0;
+    margin: 30px 0 20px 0;
+    background: #2296cf;
+    padding: 1px;
+    color: #ffffff;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-box>h3 {
+    font-weight: 800;
+    color: #282828;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+.login-box>#google-login {
+    width: 450px;
+    display: inline-block;
+    font-size: 0.9em;
+    margin: 20px 0 30px 0;
+    height: 45px;
+    background:url('https://goo.gl/Mmlsm') no-repeat #dd4b39;
+    background-position:30px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 340;
+    cursor: pointer;
+    padding-top: 13px;
+}
+
+.login-box>button:hover {
+    opacity: 0.8;
+}
+.login-box>a:hover {
+    opacity: 0.8;
+}

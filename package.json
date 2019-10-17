@@ -1,0 +1,37 @@
+{
+  "name": "book-squad",
+  "version": "0.0.1",
+  "description": "manage books on web",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gminiy/nodejs-news.git"
+  },
+  "author": "Ingleby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gminiy/nodejs-news/issues"
+  },
+  "homepage": "https://github.com/gminiy/nodejs-news#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.5",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-jwt": "^4.0.0",
+    "pug": "^2.0.4",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}

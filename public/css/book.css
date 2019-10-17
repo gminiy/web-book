@@ -1,0 +1,53 @@
+@import 'default.css';
+@import 'header.css';
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.book {
+    border: 1px solid #495057;
+    width: 70vw;
+    height: 60vh;
+    margin-top: 8vh;
+    border-radius: 8px;
+    padding: 0 9.5vw 0 9.5vw;
+}
+.book>.book_registration-date {
+    margin-top: 2vh;
+    text-align: right;
+}
+
+.book>.book_title {
+    font-size: 4vw;
+    font-weight: 900;
+    margin: 5vh 0 7vh 0;
+}
+
+.book>.book_description {
+    height: 20vh;
+}
+
+.book>.book_author {
+    margin-bottom: 1vh;
+}
+
+.book>.book_publisher {
+    margin-bottom: 1vh;
+}
+
+.book>.book_publication-date {
+    margin-bottom: 1vh;
+}
+
+.book>.buttons {
+    float: right;
+}
+
+.book>.buttons>button {
+    width:5vw;
+    height:4vh;
+    cursor: pointer;
+    margin-left: 2vw;
+}

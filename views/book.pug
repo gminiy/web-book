@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Books
+    link(rel='stylesheet', href='css/book.css')
+  body
+      .header
+        .header_brand
+            h1.header_brand Books
+        .header_users
+          .header_user
+            h1.header_user #{nickname}
+          if isAdmin
+            a.header_register-post(href='/post') 글쓰기
+          a.header_logout-button(href='/auth/logout') Log Out
+      .body
+          .book(id=book._id)
+            .book_registration-date= registrationDate
+            .book_title= book.title
+            .book_description= book.description
+            .book_author 저 자 : #{book.author}
+            .book_publisher 출 판 사 : #{book.publisher}
+            .book_publication-date 출 판 일 : #{publicationDate}
+            if isAdmin
+              .buttons
+                button.delete-button 삭제
+                button.update-button 수정
+      script(src='javascript/book.js')
